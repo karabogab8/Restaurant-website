@@ -360,6 +360,9 @@
   color: white;
   cursor: pointer;
 }
+.close:hover{
+    color: #780000;
+}
 
  
   /* Contact Section */

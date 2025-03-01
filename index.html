@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rena Pizza Royal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+  <header>
+    <div class="logo-container">
+      <div class="logo">
+        <img src="royal-logo.jpg" alt="Pizza Logo" class="logo-img">
+      </div>
+      <h1>Rena Pizza Royal</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#om-oss">Om Oss</a></li>
+        <li><a href="#meny">Meny</a></li>
+        <li><a href="#gallery">Galleri</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Velkommen til Rena Pizza Royal</h2>
+        <p>Autentisk smak og kvalitet siden 2019</p>
+      </div>
+    </section>
+
+    <section id="om-oss" class="container">
+      <h2>Om Oss</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Velkommen til Royal Pizza! Vi har en lidenskap for å lage smakfulle pizzaer og deilige retter med de ferskeste råvarene. Hos oss finner du alt fra klassiske pizzaer til innovative retter som passer for enhver smak.</p>
+          <p>Vi er stolte av vår lokale tilstedeværelse og jobber hardt for å tilby en uforglemmelig matopplevelse.</p>
+          <p>Enten det er takeaway, levering, eller en hyggelig kveld i vår restaurant – du er alltid hjertelig velkommen!</p>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Rena Pizza Royal restaurant">
+        </div>
+      </div>
+    </section>
+
+    <section id="meny" class="container">
+      <h2>Vår Meny</h2>
+      
+      <div class="menu-tabs">
+        <button class="menu-tab active" data-category="pizza">Pizza Meny</button>
+        <button class="menu-tab" data-category="calzone">Calzone Meny</button>
+        <button class="menu-tab" data-category="kebab">Kebab/Kylling</button>
+        <button class="menu-tab" data-category="burger">Burger Meny</button>
+        <button class="menu-tab" data-category="grill">Grill Meny</button>
+        <button class="menu-tab" data-category="salater">Salater</button>
+        <button class="menu-tab" data-category="pide">Tyrkisk Pide</button>
+        <button class="menu-tab" data-category="fire-i-en">4 I 1</button>
+      </div>
+
+      <div class="menu-content">
+        <!-- Pizza Meny -->
+        <div class="menu-category active" id="pizza">
+          <h3>Pizza Meny</h3>
+          <div class="menu-scroll">
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4>Margarita (1,7)</h4>
+                <p class="description">Pizzasaus og ost</p>
+                <p class="price">179,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Amerikansk (1,7)</h4>
+                <p class="description">Skinke og ost</p>
+                <p class="price">219,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Hawaii (1,7)</h4>
+                <p class="description">Pepperoni, bacon, marinert biff, løk og champignon</p>
+                <p class="price">259,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Tacopizza (1,7)</h4>
+                <p class="description">Tacokjøtt, løk, paprika, mais, chips og jalapeno</p>
+                <p class="price">259,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Sunset (1,7)</h4>
+                <p class="description">Biff, pepperoni, løk og jalapeno</p>
+                <p class="price">259,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Baconpizza (1,7)</h4>
+                <p class="description">Bacon, biff og purre</p>
+                <p class="price">259,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Capricciosa (1,7)</h4>
+                <p class="description">Kjøttdeig, paprika og løk</p>
+                <p class="price">239,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kebabpizza (1,7)</h4>
+                <p class="description">Kebabkjøtt, salat, mais, pommes frites og dressing</p>
+                <p class="price">279,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Fifty-Fifty (1,7)</h4>
+                <p class="description">To halve pizzaer fra menyen</p>
+                <p class="price">289,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>New York (1,7)</h4>
+                <p class="description">Biff, champignon og løk</p>
+                <p class="price">235,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Acapulco (1,7)</h4>
+                <p class="description">Pepperoni, kjøttdeig, løk, paprika, ananas og champignon</p>
+                <p class="price">245,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Havets Pizza (1,7)</h4>
+                <p class="description">Tunfisk/reker, oliven og dill</p>
+                <p class="price">249,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Royal Pizza (1,7)</h4>
+                <p class="description">Biff, pepperoni, bacon, skinke og løk</p>
+                <p class="price">279,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Husets Pizza (1,7)</h4>
+                <p class="description">Biff, løk, champignon, jalapeno og BBQ/bearnaisesaus</p>
+                <p class="price">259,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Glutenfri Pizza</h4>
+                <p class="description">Egen pizza</p>
+                <p class="price">239,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Bland Grill Pizza (1,7)</h4>
+                <p class="description">Biff, kylling, kebab og løk</p>
+                <p class="price">279,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Fotballelsker (1,7)</h4>
+                <p class="description">Skinke, pepperoni, biff, løk, mais og paprika</p>
+                <p class="price">269,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Vegetarpizza (1,7)</h4>
+                <p class="description">Alle grønnsaker fra menyen</p>
+                <p class="price">209,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Parmaskinke (1,7)</h4>
+                <p class="description">Artisjokk, blåmuggost og ruccula</p>
+                <p class="price">299,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kylling Pizza (1,7)</h4>
+                <p class="description">Kylling, løk, champignon og paprika</p>
+                <p class="price">249,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Rena Spesial (1,7)</h4>
+                <p class="description">Biff, bacon, løk, champignon, paprika og mix salat</p>
+                <p class="price">259,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Pizza Kylling (1,7)</h4>
+                <p class="description">Kylling og pesto</p>
+                <p class="price">239,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Blanco Pizza (1,7)</h4>
+                <p class="description">Hvitløkssaus, skinke, bacon og løk</p>
+                <p class="price">239,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Salami Pizza (1,7)</h4>
+                <p class="description">Salami og sopp</p>
+                <p class="price">239,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Babylon (1,7)</h4>
+                <p class="description">Pepperoni, bacon, løk og tomat</p>
+                <p class="price">239,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Colosseum (1,7)</h4>
+                <p class="description">Pepperoni, kjøttdeig, løk og oliven</p>
+                <p class="price">239,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Florida (1,7)</h4>
+                <p class="description">Pepperoni og ananas</p>
+                <p class="price">229,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Militær Pizza (1,7)</h4>
+                <p class="description">Biff, skinke, bacon, pepperoni, kylling, kebab, løk, paprika, champignon og purre</p>
+                <p class="price">319,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Portofino (1,7)</h4>
+                <p class="description">Pepperoni, løk, paprika, champignon og purre</p>
+                <p class="price">239,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Tandoori Pizza (1,7)</h4>
+                <p class="description">Kylling, løk, ananas, tomat og karrikrydder</p>
+                <p class="price">249,-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Calzone Meny -->
+        <div class="menu-category" id="calzone">
+          <h3>Calzone Meny</h3>
+          <div class="menu-scroll">
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4>Calzone 1</h4>
+                <p class="description">Ost og skinke</p>
+                <p class="price">149,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Calzone 2</h4>
+                <p class="description">Ost og pepperoni</p>
+                <p class="price">149,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Calzone 3</h4>
+                <p class="description">Biff, løk og champignon</p>
+                <p class="price">169,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kebab Calzone</h4>
+                <p class="description">Kebab/kylling, salat, agurk, løk, mais, pommes frites og dressing</p>
+                <p class="price">169,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kongelig Spesial</h4>
+                <p class="description"></p>
+                <p class="price">119,-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kebab/Kylling -->
+        <div class="menu-category" id="kebab">
+          <h3>Kebab/Kylling Meny</h3>
+          <div class="menu-scroll">
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4>Kebab i pita (1,6,7)</h4>
+                <p class="description"></p>
+                <p class="price">120,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kebabrull (1,6,7)</h4>
+                <p class="description"></p>
+                <p class="price">129,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kylling i pita (1,6,7)</h4>
+                <p class="description"></p>
+                <p class="price">120,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kyllingrull (1,6,7)</h4>
+                <p class="description"></p>
+                <p class="price">129,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kyllingtallerken (1,6,7)</h4>
+                <p class="description"></p>
+                <p class="price">189,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kebabtallerken (1,6,7)</h4>
+                <p class="description"></p>
+                <p class="price">179,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Militær Spesial (1,6,7)</h4>
+                <p class="description"></p>
+                <p class="price">210,-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Burger Meny -->
+        <div class="menu-category" id="burger">
+          <h3>Burger Meny</h3>
+          <div class="menu-scroll">
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4>Hamburger 160 gr (1,7,10,11)</h4>
+                <p class="description"></p>
+                <p class="price">110,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Hamburgertallerken 160 gr (1,7,10,11)</h4>
+                <p class="description"></p>
+                <p class="price">149,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kyllingburger 120 gr (1,7,10,11)</h4>
+                <p class="description"></p>
+                <p class="price">110,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kyllingburgertallerken 120 gr (1,7,10,11)</h4>
+                <p class="description"></p>
+                <p class="price">149,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>ANGUS-Burger 200 gr (1,7,10,11)</h4>
+                <p class="description"></p>
+                <p class="price">169,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>ANGUS-Burgertallerken 200 gr (1,7,10,11)</h4>
+                <p class="description"></p>
+                <p class="price">210,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Texburger 160 gr (1,7,10,11)</h4>
+                <p class="description"></p>
+                <p class="price">110,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Texburger-Tallerken 160 gr (1,7,10,11)</h4>
+                <p class="description"></p>
+                <p class="price">149,-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grill Meny -->
+        <div class="menu-category" id="grill">
+          <h3>Grill Meny</h3>
+          <div class="menu-scroll">
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4>Kyllingsnadder (1,6,7,10)</h4>
+                <p class="description"></p>
+                <p class="price">199,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Biffsnadder (1,6,7,10)</h4>
+                <p class="description"></p>
+                <p class="price">210,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Mix Grill (1,6,7,10)</h4>
+                <p class="description"></p>
+                <p class="price">219,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Løvstekplate (1,6,7)</h4>
+                <p class="description"></p>
+                <p class="price">159,-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Salater -->
+        <div class="menu-category" id="salater">
+          <h3>Salater</h3>
+          <p class="menu-note">Med brød og dressing:</p>
+          <div class="menu-scroll">
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4>Skinkesalat (1,6,7,10)</h4>
+                <p class="description"></p>
+                <p class="price">139,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Kyllingsalat (1,6,7,10)</h4>
+                <p class="description"></p>
+                <p class="price">149,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Sjøsalat (1,6,7,10)</h4>
+                <p class="description"></p>
+                <p class="price">139,-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 I 1 -->
+        <div class="menu-category" id="fire-i-en">
+          <h3>4 I 1</h3>
+          <div class="menu-scroll">
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4>4 I 1 Combo</h4>
+                <p class="description">3 x Løkringer, 3 x Nuggets, 3 x Mozzarella Sticks, 3 x Chili Cheese, 1 porsjon pommes</p>
+                <p class="price">129,-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tyrkisk Pide -->
+        <div class="menu-category" id="pide">
+          <h3>Tyrkisk Pide</h3>
+          <div class="menu-scroll">
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4>Pide 1</h4>
+                <p class="description">Kjøttdeig, løk og tomat</p>
+                <p class="price">149,-</p>
+              </div>
+              <div class="menu-item">
+                <h4>Pide 2</h4>
+                <p class="description">Kjøttdeig, løk, tomat og ost</p>
+                <p class="price">159,-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   <section id="gallery">
+ <!-- Galeri Sekmesi -->
+<section id="galeri" class="container">
+  <h2>Galeri</h2>
+  <div class="gallery-grid">
+      <img src="img/dukkan1.webp" alt="" class="gallery-item">
+      <img src="img/dukkan2.webp" alt="" class="gallery-item">   
+      <img src="img/dukkan3.webp" alt="" class="gallery-item">
+      <img src="img/dukkan4.webp" alt="" class="gallery-item">
+      <img src="img/dukkan5.webp" alt="" class="gallery-item">
+      <img src="img/dukkan6.webp" alt="" class="gallery-item">
+      <img src="img/pizza2.gif" alt="" class="gallery-item">
+      <img src="img/yemek1.webp" alt="" class="gallery-item">
+      <img src="img/yemek2.webp" alt="" class="gallery-item">
+      <img src="img/yemek3.webp" alt="" class="gallery-item">
+      <img src="img/yemek4.webp" alt="" class="gallery-item">
+      <img src="img/yemek5.webp" alt="" class="gallery-item">
+      <img src="img/yemek6.webp" alt="" class="gallery-item">
+    
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+      <span class="close" onclick="closeLightbox()">&times;</span>
+      <img id="lightbox-img" src="" alt="Büyütülmüş Resim">
+  </div>
+</section>
+
+
+</section>
+
+    <section id="kontakt" class="container">
+      <h2>Kontakt Oss</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <h4>Adresse</h4>
+              <p>Tollef Kildes Gate 25, Rena, Norway</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div>
+              <h4>Telefon</h4>
+              <p>+47  62 50 74 00</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <div>
+              <h4>E-post</h4>
+              <p>Royalpizzaogkebab@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div>
+              <h4>Åpningstider</h4>
+              <p>Mandag - Torsdag: 11:00 - 22:00</p>
+              <p>Fredag - Lørdag: 11:00 - 23:00</p>
+              <p>Søndag: 12:00 - 22:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="royal-logo.jpg" alt="Pizza Logo" class="logo-img">
+          <h3>Rena Pizza Royal</h3>
+        </div>
+        <div class="footer-links">
+          <a href="#om-oss">Om Oss</a>
+          <a href="#meny">Meny</a>
+          <a href="#kontakt">Kontakt</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Rena Pizza Royal. Alle rettigheter reservert. Made by Bedho</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
